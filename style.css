@@ -1,0 +1,47 @@
+.nav-link{
+    font-family: 'Gloock', serif;
+}
+.introduction{
+    background-color: #f6f4e8;
+}
+.introduction-figure{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+	background-color: #f6f4e8;
+    width: fit-content;
+    height: 30%;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.img-intro{
+    opacity: 0.5;
+}
+.introduction-title, .introduction-subtitle{
+    max-width: 100%;
+    position: absolute;
+    color: #3b3b3b;
+    text-align: left;
+    padding: 10px;
+    margin-left: 30%;
+}
+.introduction-title{
+    font-size: 8em;
+    font-family: 'Gloock',serif;
+    line-height: 90%;
+    width: 30%;
+    margin-bottom: 20px;
+    top: 30%;
+}
+.introduction-subtitle{
+    font-size: 2em;
+    font-family: 'Archivo', sans-serif;
+    margin-top: 25%;
+   
+}
+.biography{
+    background-color: #f6f4e8;
+}

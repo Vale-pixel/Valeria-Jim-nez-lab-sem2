@@ -64,7 +64,6 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     align-items: center;
 }
 .biography-figure img{
@@ -79,5 +78,28 @@
 .btn{
     font-family: 'Gloock',sans-serif;
     background-color: #3b3b3b;
+    margin-bottom: 10%;
+}
+.btn:hover{
+    color: rgb(224, 53, 31);
+}
+footer{
+    font-family: 'Archivo', sans-serif;
+    color: #f6f4e8;
+    font-size: 20%;
+}
+.icon-enlace{
+    display: inline-block;
+    padding-left: 20px;
+    background-image: url("ruta/a/la/imagen/icono.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+.icon-enlace:hover{
+    color: aqua;
 }
 
